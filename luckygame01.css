@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  font-family: arial;
+  margin-bottom: 500px;
+}
+h1{
+  color:blue;
+}
+.lion-btn{
+  width:120px;
+  height:50px;
+  background-color:red;
+  border-width:1px;
+  color:white;
+  font-size:20px;
+  font-weight:bold;
+  margin-top:20px;
+  border-style: solid;
+}
+.tiger-btn{
+  width:120px;
+  height:50px;
+  background-color: black;
+  border-width:1px;
+  color:white;
+  font-size:20px;
+  font-weight:bold;
+  margin-top:20px;
+  border-style: solid;
+}
+.bear-btn{
+  width:120px;
+  height:50px;
+  background-color: blue;
+  border-width:1px;
+  color:white;
+  font-size:20px;
+  font-weight:bold;
+  margin-top:20px;
+  border-style: solid;
+}
+.lion-btn:hover,
+.tiger-btn:hover,
+.bear-btn:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+.lion-btn:active,
+.tiger-btn:active,
+.bear-btn:active{
+  background-color: rgb(133, 127, 127);
+}
